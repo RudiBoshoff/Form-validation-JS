@@ -170,6 +170,8 @@ form button {
   width: 100%;
   padding: 1.5em 2em;
   cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background-size: 100%;
   background-image: linear-gradient(217deg, #a045dd, #2a81e4);
   position: relative;
