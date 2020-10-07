@@ -15,6 +15,10 @@ The form validation checks:
   5. if a password contains numbers
   6. if a password contains upper and lower case letters
 
+### limitaions
+1. The form doesn't submit any information. 
+2. The form also does not incorporate github and twitter links below the form. They are just there for eye candy. In a real site the "known" sites would be listed at the top of the sign up form for better conversion rate as users would see the "trusted" links before teh form and are more inclined to sign in using an already known site.
+
 ### screenshots
 screenshots showing the different field states
 <p text-align="center">
