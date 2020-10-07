@@ -50,7 +50,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 45vw;
-  max-width: 800px;
+  max-width: 550px;
   min-width: 450px;
 }
 
@@ -61,7 +61,7 @@ img {
 .signup-external {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  padding: 0 0 3em;
+  padding: 0 0 2em;
   width: 100%;
   background: white;
   display: flex;
@@ -125,7 +125,7 @@ button {
 .signup-new {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  padding: 3em 0 0;
+  padding: 2em 0 0;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -134,7 +134,7 @@ button {
   gap: 1em;
   background: white;
   h3 {
-    margin: 1em 0;
+    margin: 0.3em 0;
     text-align: center;
   }
 }
@@ -149,7 +149,6 @@ form {
   button {
     margin-top: 1em;
     width: 100%;
-    padding: 1.5em 2em;
     cursor: pointer;
     transition: all 0.3s;
     @include gradientAnimation(
@@ -169,7 +168,7 @@ form {
 .field {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 85%;
   position: relative;
 
   label {
@@ -180,8 +179,8 @@ form {
     background: rgb(235, 235, 240);
     background: rgb(255, 255, 255);
     font-size: 1.8rem;
-    padding: 1em;
-    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
     border: none;
     border: 1px solid rgb(209, 209, 209);
     outline: none;
@@ -192,7 +191,7 @@ form {
 
   svg {
     position: absolute;
-    top: 45px;
+    top: 38px;
     right: 10px;
     .hidden {
       display: none;

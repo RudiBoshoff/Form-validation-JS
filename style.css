@@ -30,7 +30,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 45vw;
-  max-width: 800px;
+  max-width: 550px;
   min-width: 450px;
 }
 
@@ -41,7 +41,7 @@ img {
 .signup-external {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  padding: 0 0 3em;
+  padding: 0 0 2em;
   width: 100%;
   background: white;
   display: -webkit-box;
@@ -126,7 +126,7 @@ button {
 .signup-new {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  padding: 3em 0 0;
+  padding: 2em 0 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,7 +146,7 @@ button {
 }
 
 .signup-new h3 {
-  margin: 1em 0;
+  margin: 0.3em 0;
   text-align: center;
 }
 
@@ -168,7 +168,6 @@ form {
 form button {
   margin-top: 1em;
   width: 100%;
-  padding: 1.5em 2em;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -211,7 +210,7 @@ form .actions {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80%;
+  width: 85%;
   position: relative;
 }
 
@@ -223,8 +222,8 @@ form .actions {
   background: #ebebf0;
   background: white;
   font-size: 1.8rem;
-  padding: 1em;
-  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
   border: none;
   border: 1px solid #d1d1d1;
   outline: none;
@@ -236,7 +235,7 @@ form .actions {
 
 .field svg {
   position: absolute;
-  top: 45px;
+  top: 38px;
   right: 10px;
 }
 
