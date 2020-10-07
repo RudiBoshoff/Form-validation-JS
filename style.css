@@ -1,0 +1,272 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(217deg, #a045dd, #00639c);
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  font-size: 1.8rem;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45vw;
+  max-width: 800px;
+  min-width: 450px;
+}
+
+img {
+  width: 50%;
+}
+
+.signup-external {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 0 0 3em;
+  width: 100%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+}
+
+.signup-external h3 {
+  margin: 1.8em 0 1em;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+}
+
+button {
+  padding: 1em 2em;
+  outline: none;
+  border: none;
+  border-radius: 0.3em;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.github {
+  color: white;
+  background: #333;
+}
+
+.github svg {
+  width: 20px;
+  fill: white;
+  margin-right: 1em;
+}
+
+.twitter {
+  color: white;
+  background: #1ea5ff;
+}
+
+.twitter svg {
+  margin-right: 1em;
+  width: 20px;
+  fill: white;
+}
+
+.button:hover, .button:focus {
+  opacity: 0.9;
+}
+
+.signup-new {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 3em 0 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+  background: white;
+}
+
+.signup-new h3 {
+  margin: 1em 0;
+  text-align: center;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+form button {
+  margin-top: 1em;
+  width: 100%;
+  padding: 1.5em 2em;
+  cursor: pointer;
+  background-size: 100%;
+  background-image: linear-gradient(217deg, #a045dd, #2a81e4);
+  position: relative;
+  z-index: 100;
+  color: white;
+}
+
+form button:before {
+  background-image: linear-gradient(217deg, #a045dd 30%, #2a81e4 130%);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  border-radius: 0.3em;
+  z-index: -100;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+form button:hover:before, form button:focus:before {
+  opacity: 1;
+}
+
+form .actions {
+  width: 80%;
+}
+
+.field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  position: relative;
+}
+
+.field label {
+  padding-bottom: 0.5em;
+}
+
+.field input {
+  background: #ebebf0;
+  background: white;
+  font-size: 1.8rem;
+  padding: 1em;
+  border-radius: 0.5em;
+  border: none;
+  border: 1px solid #d1d1d1;
+  outline: none;
+}
+
+.field input:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.field svg {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+}
+
+.field svg .hidden {
+  display: none;
+}
+
+.field .success {
+  border: 1px solid #46da72;
+}
+
+.field .error {
+  border: 1px solid #f15050;
+}
+
+.field .error-message {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  color: #f15050;
+  font-size: 1.6rem;
+}
+
+svg .error-icon {
+  fill: #f15050;
+}
+
+svg .success-icon {
+  fill: #46da72;
+}
+
+svg {
+  height: 3rem;
+  width: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
